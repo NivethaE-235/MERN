@@ -1,0 +1,45 @@
+.all{
+    width: 500px;
+    height: 60px;
+    background-color: deeppink;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.all div{
+    background-color: violet;
+    padding: 15px;
+    margin: 5px;
+    border: 5px solid rgb(87, 87, 223);
+    height: 20px;
+    font-style: oblique;
+}
+.nav{
+    height: 30px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: end;
+}
+.nav div{
+    background-color: whitesmoke;
+    padding: 1px;
+    margin: 5px;
+    height: 20px;
+    border: 2px solid black;
+    font-style: italic;
+}
+/*.one{
+    background-color: hotpink;
+    border: 5px solid green;
+    height: 100px;
+}
+.two{
+    background-color: hotpink;
+    border: 5px solid green;
+    height: 100px;
+}
+.three{
+    background-color: hotpink;
+    border: 5px solid green;
+    height: 100px;
+}*/
