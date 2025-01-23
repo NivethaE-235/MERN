@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #222;
+}
+
+a {
+  color: #d6d7ed;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #4c4cff;
+}
+
+header {
+  background: linear-gradient(135deg, #646cff, #4c4cff);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #e0e4ff;
+}
+
+/* Section Styles */
+section {
+  padding: 2.5rem 1rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.light-bg {
+  background-color: #f9f9f9;
+}
+
+.dark-bg {
+  background-color: #646cff;
+  color: white;
+}
+
+/* Cards */
+.experience-card, .project-card {
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  background-color: white;
+  border-left: 6px solid #4c4cff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  width: 80%; /* Centered and responsive */
+}
+
+.dark-bg .experience-card, .dark-bg .project-card {
+  background-color: #444;
+  color: white;
+}
+
+.project-card:hover, .experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.9rem;
+}
