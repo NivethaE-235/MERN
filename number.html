@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Guessing Game</h1>
+    <button onClick = "guessNumber()">Click for prompt</button>
+    <script>
+        function guessNumber(){
+            const randomNumber = Math.floor(Math.random()*100)+1
+            let guess
+            let attempts=0
+            do{
+                guess = prompt("Guess number between 1 and 100")
+                guess = Number(guess)
+                if(guess<randomNumber){
+                    console.log("Guess is low")
+                    attempts++
+                }
+                else if(guess>randomNumber){
+                    console.log("Guess is high")
+                    attempts++
+                }
+                else{
+                    console.log("Correct Guess! in "+attempts+" attempts")
+                }
+            }
+            while(guess!=randomNumber)
+        }
+    </script>
+</body>
+</html>
